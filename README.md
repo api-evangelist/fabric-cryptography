@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fabric Cryptography is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/fabric-cryptography_stock/
+Fabric Cryptography (legal entity Fabric of Truth, Inc.) is a Santa Clara, California semiconductor company founded in 2022 that builds the Verifiable Processing Unit (VPU) — a custom silicon chip whose instruction set is designed exclusively for the mathematical building blocks of modern cryptography, pairing GPU-style programmability with ASIC-class performance. Announced products are the FC 1000 chip, the VPU 8060 card and the "Byte Smasher" server, with an LLVM-based compiler and a reconfigurable primitives library targeting plonky2, plonky3, GKR, halo2, Jolt/Lasso, Nova and TFHE.
+
+As of the 2026-08-12 enrichment pass Fabric Cryptography publishes **no developer program, API, SDK, registry package or machine-readable specification of any kind**. See `x-coverage` in `apis.yml` for the probe record.
+
+- https://www.fabriccryptography.com/
+- https://www.fabriccryptography.com/blog

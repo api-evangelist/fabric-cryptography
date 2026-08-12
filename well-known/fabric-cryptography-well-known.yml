@@ -1,0 +1,48 @@
+generated: '2026-08-12'
+method: probed
+source: live GET of /.well-known/* on the only host Fabric Cryptography publishes
+host: https://www.fabriccryptography.com
+note: >-
+  Every probed path returned 404. The Webflow origin answers /.well-known/* with an HTML
+  body reading "Invalid .well-known request", so there is no discovery surface here — no
+  security.txt, no OIDC/OAuth metadata, no API catalog, no AI plugin manifest and no A2A
+  agent card. No WellKnown, SecurityTxt or AgentCard pointer is wired in apis.yml, because
+  this file records an absence, not a presence.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/oauth-protected-resource
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+related_probes:
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /openapi.yaml
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /api-docs
+  status: 404
+- path: /docs
+  status: 404
+- path: /redoc
+  status: 404
+- path: /graphql
+  status: 404
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200

@@ -1,8 +1,22 @@
 aid: fabric-cryptography
 name: Fabric Cryptography
-description: 'Fabric Cryptography is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Fabric Cryptography (legal entity Fabric of Truth, Inc.) is a Santa Clara,
+  California semiconductor company founded in 2022 that builds the Verifiable Processing
+  Unit (VPU) — a custom silicon chip whose instruction set is designed exclusively for
+  the mathematical building blocks of modern cryptography. The VPU combines the programmability
+  of a GPU with the performance of an ASIC: hundreds of number-theory units for 32-bit
+  to 384-bit modular arithmetic, custom hash instructions, software-controlled scratchpad
+  memory, a non-blocking network-on-chip, and an on-chip multi-core RISC-V processor for
+  native witness generation. Products announced are the FC 1000 chip, the VPU 8060 card
+  (three FC 1000 chips, ~1 TB/s memory bandwidth to 30 GB) and the "Byte Smasher" server
+  (up to eight VPU 8060 cards). Software is an LLVM-based compiler plus a reconfigurable
+  library of primitives targeting plonky2, plonky3, GKR, halo2, Jolt/Lasso, Nova and TFHE,
+  with a stated future cloud offering. The company raised $33M in 2024 from Blockchain
+  Capital, 1kx, Inflection and Protocol Labs, and has announced collaborations with Polygon
+  Labs (AggLayer) and RISC Zero (Boundless). As of this pass Fabric publishes no developer
+  program, API, SDK registry package or machine-readable specification of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/fabric-cryptography/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/66b7d416d16b3b093afcdc6e/66c1b60dbffcf3768deabd5d_fabric_256x256.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +26,14 @@ created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
+- Cryptography
+- Hardware
+- Semiconductors
+- Zero Knowledge Proofs
+- Fully Homomorphic Encryption
+- Privacy
+- Accelerated Computing
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +42,40 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/fabric-cryptography_stock/
+  url: https://www.fabriccryptography.com/
+- type: Blog
+  url: https://www.fabriccryptography.com/blog
+- type: DomainSecurity
+  url: security/fabric-cryptography-domain-security.yml
+- type: LLMsTxt
+  url: llms/fabric-cryptography-llms.txt
+- type: Plans
+  url: plans/fabric-cryptography-plans-pricing.yml
+x-enrichment:
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Fabric Cryptography's entire public site is seven Webflow pages (home, blog index and
+    four posts) with no developer, docs, API or SDK section, and every access path it does
+    advertise is dead — the Co-Design, Pre-Order and Contact Typeforms all redirect to
+    Typeform's generic "incorrect URL" page and the Lever careers board 404s; its two GitHub
+    organizations (f16y, FabricCryptography) exist but hold zero public repositories.
+  evidence:
+  - url: https://www.fabriccryptography.com/sitemap.xml
+    status: 200
+  - url: https://www.fabriccryptography.com/openapi.json
+    status: 404
+  - url: https://www.fabriccryptography.com/.well-known/agent-card.json
+    status: 404
+  - url: https://jobs.lever.co/f16y
+    status: 404
+  - url: https://f16y.typeform.com/sales
+    status: 301
+  - url: https://api.github.com/orgs/f16y/repos
+    status: 200
+  checked: '2026-08-12'

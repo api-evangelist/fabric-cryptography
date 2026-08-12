@@ -1,0 +1,24 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.fabriccryptography.com/
+plan_count: 0
+note: >-
+  Fabric Cryptography publishes no pricing of any kind. The public site has seven pages
+  (home, blog index, four posts) and carries no pricing, plans or billing page; the
+  sitemap confirms no such URL exists. Hardware access was routed through two Typeform
+  calls to action on the homepage — "Pre-Order" (https://f16y.typeform.com/sales) and
+  "Co-Design" (https://f16y.typeform.com/engineering) — and both now 301 to Typeform's
+  generic "incorrect URL" explore page rather than to a form, so even the contact-sales
+  path to a quote is broken. No list price, unit, quota or overage is published for the
+  FC 1000 chip, the VPU 8060 card, the "Byte Smasher" server or the described future
+  cloud offering.
+plans: []
+evidence:
+- url: https://www.fabriccryptography.com/
+  status: 200
+- url: https://www.fabriccryptography.com/sitemap.xml
+  status: 200
+- url: https://f16y.typeform.com/sales
+  status: 301
+- url: https://f16y.typeform.com/engineering
+  status: 301
