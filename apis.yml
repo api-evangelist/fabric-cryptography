@@ -16,6 +16,17 @@ description: 'Fabric Cryptography (legal entity Fabric of Truth, Inc.) is a Sant
   Labs (AggLayer) and RISC Zero (Boundless). As of this pass Fabric publishes no developer
   program, API, SDK registry package or machine-readable specification of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/fabric-cryptography/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/66b7d416d16b3b093afcdc6e/66c1b60dbffcf3768deabd5d_fabric_256x256.png
 x-type: company
 x-source: harvest:secondary-market
