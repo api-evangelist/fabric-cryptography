@@ -1,0 +1,26 @@
+# Front Door AI Index — fabric-cryptography — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: fabric-cryptography
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.fabriccryptography.com
+  final_host: www.fabriccryptography.com
+  ownership: own
+  owner: fabric-cryptography
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 3.2
+  words: 625
+  tiers:
+    agentic: 1
+    core: 1
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 1
+    fine-tune: 1
