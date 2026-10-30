@@ -64,9 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fabric Cryptography (legal entity Fabric of Truth, Inc.) is a Santa Clara, California semiconductor company founded in 2022 that builds the Verifiable Processing Unit (VPU) — a custom silicon chip whose instruction set is designed exclusively for the mathematical building blocks of modern cryptography, pairing GPU-style programmability with ASIC-class performance. Announced products are the FC 1000 chip, the VPU 8060 card and the "Byte Smasher" server, with an LLVM-based compiler and a reconfigurable primitives library targeting plonky2, plonky3, GKR, halo2, Jolt/Lasso, Nova and TFHE.
+Fabric Cryptography (legal entity Fabric of Truth, Inc.) is a Santa Clara, California semiconductor company founded in 2022 that builds the Verifiable Processing Unit (VPU) — a custom silicon chip whose instruction set is designed exclusively for the mathematical building blocks of modern cryptography. The VPU combines the programmability of a GPU with the performance of an ASIC: hundreds of number-theory units for 32-bit to 384-bit modular arithmetic, custom hash instructions, software-controlled scratchpad memory, a non-blocking network-on-chip, and an on-chip multi-core RISC-V processor for native witness generation. Products announced are the FC 1000 chip, the VPU 8060 card (three FC 1000 chips, ~1 TB/s memory bandwidth to 30 GB) and the "Byte Smasher" server (up to eight VPU 8060 cards). Software is an LLVM-based compiler plus a reconfigurable library of primitives targeting plonky2, plonky3, GKR, halo2, Jolt/Lasso, Nova and TFHE, with a stated future cloud offering. The company raised $33M in 2024 from Blockchain Capital, 1kx, Inflection and Protocol Labs, and has announced collaborations with Polygon Labs (AggLayer) and RISC Zero (Boundless). As of this pass Fabric publishes no developer program, API, SDK registry package or machine-readable specification of any kind.
 
-As of the 2026-08-12 enrichment pass Fabric Cryptography publishes **no developer program, API, SDK, registry package or machine-readable specification of any kind**. See `x-coverage` in `apis.yml` for the probe record.
+**Areas:** Company · Cryptography · Hardware · Semiconductors · Zero-Knowledge Proofs · Fully Homomorphic Encryption · Privacy · Accelerated Computing · Blockchain
 
-- https://www.fabriccryptography.com/
-- https://www.fabriccryptography.com/blog
+## Fabric Cryptography on APIs.io
+
+Everything profiled for Fabric Cryptography is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fabric-cryptography/](https://apis.io/providers/fabric-cryptography/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fabric Cryptography Domain Security](https://apis.io/security/fabric-cryptography/fabric-cryptography-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fabric Cryptography Plans Pricing](https://apis.io/plans/fabric-cryptography/fabric-cryptography-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.fabriccryptography.com/)
+- [Blog](https://www.fabriccryptography.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 3.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fabric-cryptography/](https://apis.io/providers/fabric-cryptography/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fabric Cryptography: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fabric-cryptography/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
